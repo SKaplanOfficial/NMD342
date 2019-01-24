@@ -41,4 +41,36 @@ Interaction: a cyclic process in which two actors alternately listen, think, and
 
 
 #### User Interface
-- Goal of optimizing the communications between people and electronic devices
+- Human facts engineering: Increase productivity of industrial workers, emphasison formal experimentation
+- Human interface: Extension of human factors, optimizing communication between people and electronic devices
+- Interactivity design: take into consideration how the computer thinks when optimizing communication
+  - Interactivity design people are usually younger, "Webby" generation
+  - Good interactive design incororates form with function
+  
+  
+  
+## Chapter 2
+### "Why Bother With Interactivity?"
+
+#### New and Revolutionary
+- Human-human communication has remained essentially the same since language developed
+- Human-computer communication lacks the *understanding* that communication relies on
+
+
+#### Tried and True
+- Living things that interacted for millions of years
+
+
+#### It's Better
+- Engages the human mind more than any other form of expression
+- Direction involvement demands greater attention than passive observation
+  - "I do and I understand"
+
+
+#### Basic of Competitive Advantage for Computers
+- Since most movies, music, and pinted materials are made using computers, I'm not sure why Crawford thinks software designers can't compete in this space. But I would agree that interactivites designes cannot compete
+- Personal computers intrduced the speed necessary for interactivity
+
+
+#### Unknown Territory
+- Revolution in art and computing through hardware and software advances
