@@ -7,7 +7,7 @@ tags: [notes, interactive design, design, books]
 comments: false
 ---
 
-Notes on Chris Crawford's *The Art of Interactive Design*.
+Notes on Chris Crawford's *The Art of Interactive Design* and Bret Victors "A Brief Rant on the Future of Interaction Design"
 
 ## Chapter 1
 ### "What Exactly IS interactivity?"
@@ -74,3 +74,11 @@ Interaction: a cyclic process in which two actors alternately listen, think, and
 
 #### Unknown Territory
 - Revolution in art and computing through hardware and software advances
+
+
+
+## Bret Victor - "A Brief Rant on the Future of Interaction Design"
+- Microsoft's vision of the future does not improve interactivity
+  - "Tools address human needs by amplifying human capabilities", can do -> want to do
+  - Hands used for everything, but not tactile response (though we wouldn't be able to know that from the video anyway)
+  - "Pictures Under Glass" significantly different from real world interaction, specifically in regard to sliding as the main interaction vs. interacting in 3D space. But is this bad? Is less expressive bad? *How* is it bad?
