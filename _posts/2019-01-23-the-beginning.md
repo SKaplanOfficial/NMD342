@@ -3,7 +3,7 @@ layout: post
 title: "The Beginning"
 date: 2019-01-23
 excerpt: "Notes on Chapters 1 & 2 of \"The Art of Interactive Design\""
-tags: [notes interactive design, design, books]
+tags: [notes, interactive design, design, books]
 comments: false
 ---
 
