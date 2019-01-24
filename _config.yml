@@ -37,10 +37,10 @@ disqus_shortname:   taylantatli
   #ad-client:
   #ad-slot:
 #bing-verify:
-#email:
+email:             SKaplanOfficial@gmail.com
 #twitter:            username
 #facebook:           username
-#github-url:         username
+github-url:         SKaplanOfficial
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
@@ -50,9 +50,9 @@ disqus_shortname:   taylantatli
 #medium:            '@username'
 #pinterest:         username
 #foursquare:        username
-steam:              username
+#steam:              username
 #dribbble:          username
-youtube:           SKaplanOfficial
+#youtube:           SKaplanOfficial
 youtube-channel:   UCvFD3iYysFzkv1IYo1ugFfw
 #soundcloud:        username
 #weibo:             username
