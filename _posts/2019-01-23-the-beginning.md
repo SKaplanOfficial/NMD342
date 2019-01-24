@@ -7,7 +7,7 @@ tags: [notes interactive design, design, books]
 comments: false
 ---
 
-Notes on Chris Crawford's book.
+Notes on Chris Crawford's *The Art of Interactive Design*.
 
 ## Chapter 1
 ### "What Exactly IS interactivity?"
