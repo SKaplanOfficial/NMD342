@@ -41,4 +41,4 @@ Interaction: a cyclic process in which two actors alternately listen, think, and
 
 
 #### User Interface
-
+- Goal of optimizing the communications between people and electronic devices
