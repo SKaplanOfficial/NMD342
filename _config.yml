@@ -1,5 +1,5 @@
 # Site
-title:              Moon
+title:              Stephen Kaplan's NMD342 Blog
 bio:                'Minimal, one column jekyll theme.'
 description:        "Moon is a minimal, one column jekyll theme for your blog."
 reading_time:       true
@@ -38,13 +38,13 @@ disqus_shortname:   taylantatli
   #ad-slot:
 #bing-verify:
 #email:
-twitter:            username
-facebook:           username
-github-url:         username
+#twitter:            username
+#facebook:           username
+#github-url:         username
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
-instagram:          username
+#instagram:          username
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'
@@ -52,8 +52,8 @@ instagram:          username
 #foursquare:        username
 steam:              username
 #dribbble:          username
-#youtube:           username
-#youtube-channel:   channel
+youtube:           SKaplanOfficial
+youtube-channel:   https://www.youtube.com/channel/UCvFD3iYysFzkv1IYo1ugFfw
 #soundcloud:        username
 #weibo:             username
 #flickr:            username
