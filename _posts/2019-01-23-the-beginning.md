@@ -12,7 +12,7 @@ Notes on Chris Crawford's book.
 ## Chapter 1
 ### "What Exactly IS interactivity?"
 
-##### Defining Interactivity
+#### Defining Interactivity
 - Overused term
 - Most people use to vague of a definition
   - Definitions aren't the end of the story, either. No complex idea can be easily defined.
@@ -32,7 +32,7 @@ Interaction: a cyclic process in which two actors alternately listen, think, and
     - All three must be done well by both parties. One failure is enough to "botch the entire conversation"
     
     
-##### Things That Aren't Interactive
+#### Things That Aren't Interactive
 - Printed books - they illicit a reaction, not interaction
   - Plato: words cannot protect or explain themselves
 - Dancing - participation - is not interaction
@@ -40,5 +40,5 @@ Interaction: a cyclic process in which two actors alternately listen, think, and
 - Performance artists *can* interact with their audience, but often don't. "Low" interaction.
 
 
-##### User Interface
+#### User Interface
 
