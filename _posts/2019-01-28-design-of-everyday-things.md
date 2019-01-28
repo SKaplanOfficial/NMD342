@@ -7,58 +7,89 @@ tags: [notes, interactive design, design, books]
 comments: false
 ---
 
-Notes on TIGOE's "Physical Computing's Greatest Hits (and misses)"
+Notes on Don Norman’s “The Design of Everyday Things”
 
-- Despite themes recurring in physical computing, there are so many ways to express the themes that there is room for originality
-- Theremin-like instruments
-    - Simple to make but doesn’t address the problem of addressing “meaningful gestures”
-- Gloves
-    - Drum gloves -> Tapping
-        - Natural gesture
-    - Many hand gestures, not many as intuitive as tapping
-    - Force-sensing resistors on fingertips
-- Floor Pads
-    - Like DDR
-    - Simple to make
-    - Not everyone enjoys dancing
-- Video Mirrors
-    - Simple computer vision
-    - “Not much structured interaction”
-- Mechanical Pixels
-    - Like video mirrors, only physical
-    - Still not much structured interaction
-    - Expensive
-- Scooby-Doo Paintings
-    - Interacting painting
-    - Need to account for difference between presence and attention
-- Body-as-cursor
-    - Person’s movement in 3D space correlates to some output
-    - General no specific interactions w/ hands or fingers
-- Hand-as-cursor
-    - Like body-as-cursor, but hand and fingers (sometimes feet) are the focus
-    - Relies on control over environment, otherwise detection becomes much more difficult, but still possible
-- Multitouch Interfaces
-    - Flat surface is not a natural interaction
-    - Not necessarily easy/afforable
-- Tilty Stands and Tables
-    - Physics of an object corresponds to some output
-    - Ball in a maze
-- Tilty Controllers
-    - Tilt of an object corresponds to some output
-- Things You Yell At
-    - Simple interaction, but very satisfying
-    - Pitch detection and voice recognition too intense for micro controller
-- Meditation Helpers
-    - React to state of mind to help mood
-    - Actions based on guesses from various sensor readings
-- Fields of Grass
-    - Responsive texture
-    - Large number of small sensors/actuators
-- Remote Hugs
-    - Objects paired over network
-    - Communicate feeling
-- Dolls and Pets
-    - Appear and behave anthropomorphically
-- LET Fetishism
-    - Going overboard with LEDs
-- Combinations of themes
+### Chapter 1 - The Psychopathology of Everyday Things
+
+- Push/pull/walking into doors -> Unnecessary troubles
+- Design should indicate how to use it without signs
+    - Beauty != Utility
+- Discoverability and understanding
+- Manuals should be unnecessary for simple things
+
+
+#### The Complexity of Modern Devices
+- “Field of design” is relatively new, the act of designing is not
+    - Everything in society is design, from household objects to the setup of the government
+- Focus on both aesthetics of form and quality of interaction
+    - Best case: Enjoyable, usable product
+- Industrial design
+    - Benefit user and manufacturer
+    - Optimize function, value, and appearance
+- Interaction design
+    - Ensure a positive, enjoyable experience
+    - Enhance people’s understand
+- Experience design
+    - Designing products, products, processes, services, events, and environments
+    - Focus on quality and enjoyment of total experience
+- Machines are precise, lack emotional depth of people -> difficult to relate human wants and needs to mechanical/computational utilities
+- It is the machine designer’s job to understand people
+- “We have to accept human behavior the way it is, not the way we would wish it to be”
+- Design machines on the assumption that people will make errors
+
+
+#### Human-Centered Design
+- Rapid advancement in technology outpaces improvements in design
+- Design improves, but each new industry starts from the beginning
+- Human-Centered Design (HCD) as a solution
+    - Designs accommodate needs, capabilities, and behavior of humans
+- Good-design relies on understanding of psychology & technology
+    - Quality communication needed between machine and user
+    - Focus on cases where things to wrong as well as when they go right
+    - Understanding through observation
+    - Not tied to a particular area of study
+
+
+#### Fundamental Principles of Interaction
+- Quality of experience impacts how people interact with a product
+- Affordances
+    - Refers to the relationship between two things, prosperities of one thing and capabilities of the other determine how the object can be used
+    - Anti-affordances - the prevention of interaction
+    - Must signify affordances and anti-affordances (without using signs, in the best case)
+    - Use the information that people are already accustomed to illicit interaction (i.e. plate on door to signify where to push)
+- Signifiers
+    - Affordances determine what actions are possible while signifies communicate where the action should take place
+    - People grow accustomed to various societal signifiers (though that doesn’t mean the signifiers are good)
+    - Perceived affordances need to match actual affordances, unless the intent is to purposely mislead people
+- Mapping
+    - Relationship between elements of two sets of tings, I.e. lights and light switches
+    - Relationship between a controller and its results must be understandable
+    - Natural mapping relies on principles of perception
+        - It does what it looks like it will do
+- Feedback
+    - Need some way to affirm that the system is responding to a user’s actions
+    - Real life is full of feedback, but mechanical devices are not particularly great at it
+    - Must be timely and information
+    - Poor feedback can be worse than no feedback at all
+    - Too much feedback is also bad
+    - Sounds are hard to localize, result in lost time as people angrily turn then off
+- Conceptual Models
+    - Highly simplified explanation of how something works
+    - In this case, “mental models” -> different for each person
+    - Signifiers should point people in the direction of one mental model
+    - Understand relationship between controls and outcomes
+    - Shouldn’t have to do controlled experiments to understand simple settings
+
+
+#### The System Image
+- System image -> Information that can be obtained about an object
+- People only enjoy and continue to use things that they can understand
+
+
+#### The Paradox of Technology
+- Basically a call for the Apple Watch
+
+
+#### The Design Challenge
+- Designing a product takes collaboration across many disciplines
+- Must satisfying requirements of all disciplines, not from the viewpoint of the designers but of the people who will be using the product
