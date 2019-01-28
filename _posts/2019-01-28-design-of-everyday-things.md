@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Everything Things"
-date: 2019-01-28
+title: "Everyday Things"
+date: 2019-01-29
 excerpt: "Notes on \"The Design of Everyday Things\""
 tags: [notes, interactive design, design, books]
 comments: false
