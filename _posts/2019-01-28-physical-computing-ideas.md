@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Physical Computing Theme"
+title: "Physical Computing Themes"
 date: 2019-01-28
 excerpt: "Notes on \"Physical Computing's Greatest Hits (and misses)\""
 tags: [notes, interactive design, design, books, phsyical computing]
