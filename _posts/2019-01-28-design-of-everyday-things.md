@@ -197,3 +197,16 @@ Notes on Don Norman’s “The Design of Everyday Things”
 - Feedforward: Adjustment of a process using anticipated results
 - Don’t criticize unless you can do better
 
+
+
+Notes on Don Norman’s “Emotional Design”
+
+### Chapter 1 - Attractive Things Work Better
+
+- Studies show that attractive interfaces are viewed as easier to use
+- Emotions change how the human mind approaches and ultimately solves problems
+- Good mood -> Creativity -> Problem solving
+- Attractiveness makes people perceive the problem as simpler
+- Cognitive -> Assign meaning
+- Affective -> Value
+- Humans are able to overcome their biological heritage (sometimes, i.e. fear of heights)
