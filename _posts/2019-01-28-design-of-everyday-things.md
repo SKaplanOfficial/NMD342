@@ -93,3 +93,107 @@ Notes on Don Norman’s “The Design of Everyday Things”
 #### The Design Challenge
 - Designing a product takes collaboration across many disciplines
 - Must satisfying requirements of all disciplines, not from the viewpoint of the designers but of the people who will be using the product
+
+
+
+### Chapter 2 - The Psychology of Everyday Things
+
+- How do people do things?
+- What happens when things go wrong?
+- How do we detect and rectify problems?
+
+
+#### How People Do Things: The Gulfs of Execution and Evaluation
+- Execution -> Try to figure out how it operates
+- Evaluation -> Try to figure out what happened
+- Must help people bridge these gulfs
+    - Provide information helping people see that they are moving toward or away from their goal
+    - Feedback and a quality conceptual model
+
+
+#### The Seven Stages of Action
+- Planning stage -> determining which possible plan of action to follow
+- Specification stage -> determine how to enact plan
+- Performance stage -> do the action
+- Evaluation stage (perceive, interpret, compare)-> interpret results compared to the goal
+- Root cause analysis - “Asking why? Until the fundamental cause of the activity is reached”
+- Opportunistic actions -> No extensive planning/analysis, do things as opportunities arise
+
+
+#### Human Thought: Mostly Subconscious
+- Human mind is complex, evolved over millions of years
+- Mystery: Connection between conscious thoughts and subconscious control of body
+- Declarative memory: facts
+- Procedural memory: recalling actions
+- Cognition begets emotion; emotional begets cognition
+    - Cognition attempts to make sense of the world
+    - Emotion assigns value
+- Subconscious controls skilled behavior
+- Extreme emotional states are not good; find balance
+
+
+#### Human Cognition and Emotion
+- Visceral
+    - “Lizard brain”
+    - Fast response without reason apart from genetic programming
+    - Design to illicit positive visceral response
+- Behavioral
+    - Subconsciously learned skills
+    - Control of body is abstracted away from cognitive thought
+    - Designers must meet the expectations of the behavioral response, otherwise people are disappointed and/or confused
+    - Feedback helps
+- Reflective
+    - Conscious cognition, develops understanding
+    - Slow
+    - Memories last longer than immediate reaction
+- Design must accommodate all levels
+
+
+#### The Seven Stages of Action and the Three Levels of Processing
+- Balance between level of difficulty and enjoyment
+
+
+#### People as Storytellers
+- People look for causes and results of events
+- Conceptual models are a way of expressing cause/effect in terms of objects
+    - Such models are often “erroneous”
+
+
+#### Blaming the Wrong Things
+- If two actuals occur in succession, most people reason that the first caused the second
+- If an action doesn’t produce a reaction, most people reason that they did not do the action properly
+- Underpromise and overdeliver
+- Blame is assigned (often incorrectly) on a per-person basis
+
+
+#### Learned Helplessness
+- Repeatedly unable to complete a desired task -> helplessness -> depression
+
+
+#### Positive Psychology
+- Reframing “failure” into challenges and learning experience
+- “Fail often, fail fast”
+- Provide help/guidance and a way to resume work flow
+
+
+#### Falsely Blaming Yourself
+- “The idea that a person is at fault when something goes wrong is deep entrenched in society”
+- Blaming the person does not fix the cause of the problem
+
+
+#### How Technology Cn Accommodate Human Behavior
+- As technology advances and costs go down, more can be done to put humans first
+- Example: Nest Thermostat
+
+
+#### Seven Fundamental Design Principles
+1. What do I want to accomplish?
+2. What are the alternative action sequences?
+3. Now what can I do?
+4. How?
+5. What happened?
+6. Meaning?
+7. Is this okay? Goal accomplished?
+- Feedforward: Adjustment of a process using anticipated results
+- Don’t criticize unless you can do better
+
