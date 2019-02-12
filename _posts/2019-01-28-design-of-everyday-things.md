@@ -177,7 +177,7 @@ Notes on Don Norman’s “The Design of Everyday Things”
 
 
 #### Falsely Blaming Yourself
-- “The idea that a person is at fault when something goes wrong is deep entrenched in society”
+- “The idea that a person is at fault when something goes wrong is deeply entrenched in society”
 - Blaming the person does not fix the cause of the problem
 
 
