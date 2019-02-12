@@ -181,7 +181,7 @@ Notes on Don Norman’s “The Design of Everyday Things”
 - Blaming the person does not fix the cause of the problem
 
 
-#### How Technology Cn Accommodate Human Behavior
+#### How Technology Can Accommodate Human Behavior
 - As technology advances and costs go down, more can be done to put humans first
 - Example: Nest Thermostat
 
