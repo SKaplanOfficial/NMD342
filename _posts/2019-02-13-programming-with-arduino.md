@@ -53,6 +53,3 @@ Notes on resources related to working with Arduinos.
 - Total voltage around path of a circuit is zero
 - Resistors divide voltage when in series and amperage when in parallel
 - Parallel: Total current = I1 + I2 + ...
-
-
-## DC Power Supplies
