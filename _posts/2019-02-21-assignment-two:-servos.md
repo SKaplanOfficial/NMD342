@@ -159,7 +159,7 @@ void loop() {
 
 
 ### Media
-<center><video width="80%" src="../assets/img/posts/assignment2.mov"></video></center>
+<center><video width="80%" src="../assets/img/posts/assignment2.mov" controls></video></center>
 
 
 ### Reflection
