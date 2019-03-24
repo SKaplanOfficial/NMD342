@@ -38,7 +38,7 @@ Next step: programming my idea into existence.
 
 
 ### Media
-<iframe width="420" height="315" src="../assets/img/posts/assignment2.mov" frameborder="0" allowfullscreen></iframe>
+<center><iframe src="../assets/img/posts/assignment2.mov" frameborder="0" allowfullscreen></iframe></center>
 
 
 ### Reflection
