@@ -39,14 +39,17 @@ My program had two files. One file contained the main logic of the project while
 The main code can be seen below:
 
 ```
-#include <Servo.h>
-#include "pitches.h"
+//-- Included Files --//
+#include <Servo.h>      // Servo motor library
+#include "pitches.h"    // Music note definiitions
 
-Servo servoMotor;
-int servoPin = 3;
+//-- Servo Variables --//
+Servo servoMotor;       // Instantiate servo library
+int servoPin = 3;       // Motor is connected to pin 3
+int previousAngle = 0;  // Previous angle of the motor
 
-int previousAngle = 0;
-
+//-- Music Variables --//
+// Star Wars theme in note form
 int melody[] = {
   NOTE_G3, NOTE_G3, NOTE_G3, NOTE_C4, NOTE_G4,
   NOTE_F4, NOTE_E4, NOTE_D4, NOTE_C5, NOTE_G4,
@@ -54,91 +57,124 @@ int melody[] = {
   NOTE_F4, NOTE_E4, NOTE_F4, NOTE_D4
 };
 
+// Duration of each note in the theme
 int noteDurations[] = {
   4, 4, 4, 2, 2, 4, 4, 4, 2, 2, 4, 4, 4, 2, 2, 4, 4, 4, 1
 };
 
+
+//-- Program Start --//
 void setup() {
+  // Set pins 5, 6, 7, and 8 as output pins for visualization LEDS
   pinMode(5, OUTPUT);
   pinMode(6, OUTPUT);
   pinMode(7, OUTPUT);
   pinMode(8, OUTPUT);
 
+  // Set pins 9, 10, and 11 as output pins for RGB leds
   pinMode(9, OUTPUT);
   pinMode(10, OUTPUT);
   pinMode(11, OUTPUT);
+
+  // Begin serial output
   Serial.begin(9600);
+
+  // Attach servo pin to the motor object
   servoMotor.attach(servoPin);
 }
 
-void loop() {
-  int potVal = analogRead(0);
-  //  analogWrite(11, potVal);
 
+//-- Main Loop --//
+void loop() {
+  // Value of potentiometer on pin A0
+  int potVal = analogRead(0);
+
+  // Activate lights according to potVal
   if (potVal < 200) {
+    // Low value -> First light
     analogWrite(6, HIGH);
     digitalWrite(7, LOW);
     digitalWrite(8, LOW);
+
   } else if (potVal < 600) {
+    // Medium value -> Second light
     analogWrite(6, LOW);
     digitalWrite(7, HIGH);
     digitalWrite(8, LOW);
+
   } else if (potVal < 1000) {
+    // High value -> Last light
     analogWrite(6, LOW);
     digitalWrite(7, LOW);
     digitalWrite(8, HIGH);
+
   } else {
+    // Others -> No lights
     analogWrite(6, LOW);
     digitalWrite(7, LOW);
     digitalWrite(8, LOW);
   }
 
+  // Map the value of potVal to between 0 and 60
   int servoAngle = map(potVal, 0, 1028, 0, 60);
+
+  // Rotate the servo motor if reasonable
   if (abs(servoAngle - previousAngle) > 5) {
     servoMotor.write(servoAngle);
     previousAngle = servoAngle;
   }
 
+
+  // Value of force sensor on pin A1
   int forceVal = analogRead(1);
-  //Serial.println(forceVal);
 
   if (forceVal > 270) {
-    map(forceVal, 0, 1024, 0, 255);
+    // If forceVal is large enough...
+    map(forceVal, 0, 1024, 0, 255); // Map the value to between 0 and 255
+
+    // Loop through notes in the melody
     for (int thisNote = 0; thisNote < 19; thisNote++) {
+      // Play the tone for the set duration
       int noteDuration = 1000 / noteDurations[thisNote];
       tone(5, melody[thisNote], noteDuration);
 
-      int light = map(log10(melody[thisNote]*1000), 1, 6, 6, 10);
-      Serial.println(light);
+      // Deactivate all lights
       for (int i=6; i<9; i++){
         digitalWrite(i, LOW);
       }
 
+      // Activate the light that represents that tone
+      int light = map(log10(melody[thisNote]*1000), 1, 6, 6, 10);
       digitalWrite(light, HIGH);
 
+      // Activate all lights when the melody ends
       if (thisNote == 18) {
         digitalWrite(6, HIGH);
         digitalWrite(7, HIGH);
         digitalWrite(8, HIGH);
       }
 
-      // to distinguish the notes, set a minimum time between them.
-      // the note's duration + 30% seems to work well:
+      // To distinguish the notes, set a minimum time between them
       int pauseBetweenNotes = noteDuration * 1.30;
       delay(pauseBetweenNotes);
-      // stop the tone playing:
+
+      // Stop the tone
       noTone(5);
     }
   } else {
+    // If forceVal is small, do not play a tone
     analogWrite(5, 0);
   }
 
 
-  int forceVal2 = analogRead(2);
-  //Serial.println(forceVal2);
-  if (forceVal2 < 100) {
+  // Value of photoresistor on pin A2
+  int lightVal = analogRead(2);
+
+  if (lightVal < 100) {
+    // If lightVal is small (very little light)..
 
     if ((millis()/500)%2 == 0) {
+      // Blink RGB led between colors every half millisecond
       analogWrite(11, 255);
       analogWrite(9, 0);
     } else {
@@ -146,10 +182,12 @@ void loop() {
       analogWrite(11, 0);
     }
 
+    // Activate all other lights
     analogWrite(6, HIGH);
     digitalWrite(7, HIGH);
     digitalWrite(8, HIGH);
   } else {
+    // Otherwise, deactivate RGB light
     analogWrite(9, 0);
     analogWrite(10, 0);
     analogWrite(11, 0);
@@ -159,7 +197,22 @@ void loop() {
 
 
 ### Media
-<center><video width="80%" src="../assets/img/posts/assignment2.mov" controls></video></center>
+An early version of the project can be seen below. Unfortunately, I do not have a video of the final version at this time. In the future I intend to rebuild the project in order to document the completed version.
+
+In this version, everything works properly except the actual visualization using LEDs. Although the LEDs turn on when the music starts, they do not activate and deactivate according to the different tones. This was fixed in a later version.
+
+<center><video style="border-radius: 5px;" width="80%" src="../assets/img/posts/assignment2.mov" controls></video></center>
 
 
 ### Reflection
+This project is a small representation of a larger idea. As I already mentioned, I've always enjoyed music visualization, and now I am able to make a physical representation of it. With a greater amount of power and processing power, it would be possible to have a 3D LED matrix like the one seen <a href="https://0x7d.com/photos/rgb-led-cube-rev-b-patterns/img_4761.jpg">here</a> that responds to music. This would be a fascinating installation and I'm hoping I can make it one day. Servos wouldn't be involved in such a project, though.
+
+Servos do, of course, have their use, and I look forward to working with them more one day. I've already compiled a list of ideas that may work well for future projects:
+- Robotics
+  - Walking animal, such as a cat or dog
+  - Arm
+- Music
+  - Automated piano
+  - Real record player / turntable
+
+I'm not sure if any of these ideas will take shape one day, but it's nice to keep a record of my thinking regardless.
