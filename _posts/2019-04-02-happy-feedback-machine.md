@@ -30,7 +30,7 @@ I need to finish commenting the code, but once I do it will be posted on a secon
 
 <img style="border-radius: 5px;" width="80%" src="../assets/img/posts/Project1/IlluminatedBoxes.jpeg">
 
-<img style="border-radius: 5px;" width="80%" src="../assets/img/posts/Project1/Soldering.jpeg">
+<img style="border-radius: 5px;" width="80%" src="../assets/img/posts/Project1/Soldering.jpg">
 </center>
 
 ### Observations
