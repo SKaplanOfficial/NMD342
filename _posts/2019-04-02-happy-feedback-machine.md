@@ -17,20 +17,20 @@ As much as I would like to say I met all of the expectations, I don't think I di
 ### Description
 My idea for this project was to create a set of interactive boxes that a user would discover the connections between as they used the system. Essentially, the idea was to have actions done to one box (such as rotating) directly influence the behavior of another (such as outputting sound, changing light colors, or changing how buttons behaved). Additional behaviors could arise from the combination of multiple boxes – i.e. the distance between two boxes influencing the intensity of light or sound on another box.
 
-Conceptually, this idea was (and still is) relatively simple: once each box is given a unique set of functions, use XBees and/or NFC to establish communication between the boxes, then change/influence the functionality as desired. 
+Conceptually, this idea was (and still is) relatively simple: once each box is given a unique set of functions, use XBees and/or NFC to establish communication between the boxes, then change/influence the functionality as desired.
 
 ### Code
 I need to finish commenting the code, but once I do it will be posted on a second GitHub repository for NMD342 projects that has yet to be made. I will update this post once I have done this.
 
 ### Media
 <center>
-<img style="border-radius: 5px;" width="80%" src="../assets/img/posts/Location.jpeg controls>Test</img>
+<img style="border-radius: 5px;" width="80%" src="../assets/img/posts/Location.jpeg">
 
-<img style="border-radius: 5px;" width="80%" src="../assets/img/posts/Setup.jpeg controls></img>
+<img style="border-radius: 5px;" width="80%" src="../assets/img/posts/Setup.jpeg">
 
-<img style="border-radius: 5px;" width="80%" src="../assets/img/posts/IlluminatedBoxes.jpeg controls></img>
+<img style="border-radius: 5px;" width="80%" src="../assets/img/posts/IlluminatedBoxes.jpeg">
 
-<img style="border-radius: 5px;" width="80%" src="../assets/img/posts/Soldering.jpeg controls></img>
+<img style="border-radius: 5px;" width="80%" src="../assets/img/posts/Soldering.jpeg">
 </center>
 
 ### Reflection
