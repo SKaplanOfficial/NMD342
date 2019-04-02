@@ -38,7 +38,11 @@ When I set up the devices in the Union, and then in the library later on, very f
 
 The link between the boxes was obvious to users, even if it did not work as well as I intended. Sometime about the combination of black and white boxes seems to make people assume they are meant to go together.
 
-Most people interacted primarily with the NFC-enabled boxes that had lights that turned on/off based on proximity. This was expect.
+Most people interacted primarily with the NFC-enabled boxes that had lights that turned on/off based on proximity. This was expected due to the strength of the Neopixels as visual cues of interaction. The other two boxes had no visual elements apart from a constantly-on green light on the heart rate monitor.
+
+The project requires a stronger signal that indicates that it is meant to be interacted with. Most people walked by without even looking at the project, and I believe this is due to the discomfort that could arise if someone were to interact with a project that wasn't finished yet (i.e. intruding on someone's work while they are at the library). This may be a fault of the location, but I also think it's due to the "unfinished" look of my project.
+
+Larger projects draw more attention. I think this a side-effect of people being drawn toward projects that look more complete. In general, the larger projects were constructed with wood.
 
 ### Reflection
 Ultimately, I am disappointed with how the project turned out, however I realize that there is great benefit to this "failure" – so much so that it was perhaps more successful than the alternative. I've learned ways to improve almost every aspect of my process.
