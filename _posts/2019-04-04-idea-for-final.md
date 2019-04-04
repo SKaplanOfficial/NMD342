@@ -7,7 +7,7 @@ tags: [notes, interactive design, design, books, phsyical computing]
 comments: false
 ---
 
-My idea for a final project is a "vision of the future" installation.
+My idea for a final project is a "vision of the future" installation. In this project, I would be designing an entire experience for users. The goal is to modify a room on campus–if possible–to be as immersive and futuristic as possible. If I cannot get a room on campus to work with, it may be better to just ideate for the rest of the semester and create a detailed explanation of the idea in hopes of sharing that idea in the future.
 
 The main aspect of this is a contextually aware card that communicates with and modifies the world using NFC. This card, in the future, could be your phone, but for the purposes of the project it would just be an NFC card. In the future, anything you interact with would have some sort of communications chip built in that would allow this card to interact with anything. For now, I would only be working with the objects in a small room.
 
