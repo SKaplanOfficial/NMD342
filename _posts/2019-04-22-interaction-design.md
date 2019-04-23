@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Interaction Design"
-date: 2019-04-23
+date: 2019-04-22
 excerpt: "Notes and Ideation"
 tags: [notes, reading, interaction, design, experience, users, design process ]
 comments: false
